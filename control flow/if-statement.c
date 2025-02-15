@@ -16,13 +16,13 @@
 int main() {
     int numberToTest, remainder; 
     printf("please enter a number to test whether its odd or even :" ); 
-    scanf("%d ", &numberToTest); 
+    scanf("%i ", &numberToTest); 
     remainder = numberToTest % 2; 
     if(remainder == 0)   
-        printf(" is an even number" ) ; 
+        printf(" is an even number \n" ) ; 
     
    else 
-        printf(" is  an odd number " ) ; 
+        printf(" is  an odd number \n  " ) ; 
     
 
   return 0; 
